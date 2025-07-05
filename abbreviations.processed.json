@@ -1,0 +1,549 @@
+{
+    "*": {
+        "o": "*",
+        "d": "assumed or reconstructed",
+        "d_eg": "hypothetical; not attested, but implied by derivitives or different parts of speech based on the same root"
+    },
+    "*etym": {
+        "o": "•",
+        "d": "etymological reconstruction; not recorded in contemporary sources, but reconstructed on the basis of borrowings found later in other languages; Crimean words are classed here too",
+        "t": "*"
+    },
+    "*foreign": {
+        "o": "#",
+        "d": "not found in corpus, but appears in Latin or Greek sources contemporary with the Goths; mostly elements in personal names; also: legal and military terms, and loan words found in late Latin, etc.",
+        "t": "*"
+    },
+    "*neo": {
+        "o": "!",
+        "d": "neologism: compounds of attested Gothic words, or formed by analogy with other Germanic languages",
+        "t": "*"
+    },
+    "*VSC": {
+        "o": "%",
+        "d": "deduced from letter name in the Vienna-Salzburg codex",
+        "t": "*"
+    },
+    "-L": {
+        "o": ["<", "b. fr."],
+        "oh": ["&lt;", "b. fr."],
+        "d": "borrowed from"
+    },
+    "-R": {
+        "o": ">",
+        "oh": "&gt;",
+        "d": "becomes"
+    },
+    "-RR": {
+        "o": "b. by",
+        "d": "borrowed by",
+        "t": "→"
+    },
+    "+acc": {
+        "o": "+acc.",
+        "d": "with an object in the accusative case",
+        "d_eg": "this verb takes an accusative direct object; since most verbs do, \"acc.\" only appears where confusion might arise if, for example, another verb with similar meaning or root takes the dative or genitive",
+        "t": "+ acc"
+    },
+    "+dat": {
+        "o": "+dat.",
+        "d": "with an object in the dative case",
+        "d_eg": "the direct object of this verb should be in the dative; also indicates case used after a preposition",
+        "t": "+ dat"
+    },
+    "+gen": {
+        "o": "+gen.",
+        "d": "with an object in the genitive case",
+        "d_eg": "After verbs: the direct object is in the genitive case. After prepositions: the following noun is in genitive. After nouns, e.g. moths (gen. modis): shows genitive to illustrate any consonant change.",
+        "t": "+ gen"
+    },
+    "+ind": {
+        "o": "+indicative",
+        "d": "with a verb in the indicative mood",
+        "t": "+ ind"
+    },
+    "+inf": {
+        "o": "+inf.",
+        "d": "with an infinitive",
+        "t": "+ inf"
+    },
+    "+subj": {
+        "o": ["+subj.", "+subjunctive"],
+        "d": "with a verb in the subjunctive mood",
+        "t": "+ subj"
+    },
+    "acc": {
+        "o": "acc.",
+        "d": "accusative case"
+    },
+    "adj": {
+        "o": ["adj.", "ADJ."],
+        "d": "adjective",
+        "g": "pos"
+    },
+    "adv": {
+        "o": ["adv.", "ADV."],
+        "d": "adverb",
+        "g": "pos"
+    },
+    "ArchEng": {
+        "o": "ARCHAIC ENGLISH",
+        "d": "Archaic English",
+        "t": "Archaic Eng",
+        "g": "lang"
+    },
+    "BiblEng": {
+        "o": "(BIBLICAL ENGLISH)",
+        "d": "Biblical English",
+        "t": "Biblical Eng",
+        "g": "lang"
+    },
+    "cf": {
+        "o": ["cf.", "Cf."],
+        "d": "compare",
+        "t": "cf."
+    },
+    "__comp": {
+        "o": "Comp.",
+        "d": "compound(s)"
+    },
+    "conj": {
+        "o": ["cj.", "CJ.", "CONJ."],
+        "d": "conjunction",
+        "g": "pos"
+    },
+    "Crim": {
+        "o": "Crim.",
+        "d": "Crimean Gothic",
+        "g": "lang"
+    },
+    "CSlav": {
+        "o": "Church Slav.",
+        "d": "Church Slavonic",
+        "g": "lang"
+    },
+    "dat": {
+        "o": "dat.",
+        "d": "dative case"
+    },
+    "__deriv": {
+        "o": "Deriv.",
+        "d": "derivation(s)",
+        "t": "▶"
+    },
+    "Du": {
+        "o": ["Du.", "Dut"],
+        "d": "Dutch",
+        "g": "lang"
+    },
+    "eg": {
+        "o": "e.g.",
+        "d": "for example",
+        "t": "e.g."
+    },
+    "Eng": {
+        "o": "Eng",
+        "d": "English",
+        "g": "lang"
+    },
+    "etc": {
+        "o": "etc.",
+        "d": "et cetera"
+    },
+    "f": {
+        "o": "f.",
+        "d": "feminine noun",
+        "d_eg": "feminine consonant stems, or unassimilated loan-words"
+    },
+    "fig": {
+        "o": ["fig.", "FIG."],
+        "d": "figurative",
+        "t": "fig."
+    },
+    "Fin": {
+        "o": "Fin",
+        "d": "Finnish",
+        "g": "lang"
+    },
+    "from": {
+        "o": "fr.",
+        "d": "from",
+        "s": "regular"
+    },
+    "gen": {
+        "o": ["gen.", "g."],
+        "d": "genitive case"
+    },
+    "Ger": {
+        "o": ["Ger", "Germ"],
+        "d": "German",
+        "g": "lang"
+    },
+    "Gk": {
+        "o": ["Gk.", "Gre"],
+        "d": "Greek",
+        "g": "lang"
+    },
+    "Goth": {
+        "o": "Goth.",
+        "d": "Gothic",
+        "g": "lang"
+    },
+    "i_stem": {
+        "o": "i-stem",
+        "d": "Only noted after masculine i-stems",
+        "t": "i-stem",
+        "s": "i"
+    },
+    "Icl": {
+        "o": "Icl",
+        "d": "Icelandic",
+        "g": "lang"
+    },
+    "ie": {
+        "o": "i.e.",
+        "d": "that is",
+        "t": "i.e."
+    },
+    "indecl": {
+        "o": ["indecl.", "indec", "indeclinable"],
+        "d": "indeclinable"
+    },
+    "inf": {
+        "o": "inf.",
+        "d": "infinitive"
+    },
+    "interrog": {
+        "o": "interrog.",
+        "d": "interrogative",
+        "t": "interrog."
+    },
+    "irreg": {
+        "o": "irreg.",
+        "d": "irregular, anomalous"
+    },
+    "It": {
+        "o": ["It", "Ita"],
+        "d": "Italian",
+        "g": "lang"
+    },
+    "ktl": {
+        "o": "ktl.",
+        "d": "και τα λοιπά, and the rest, et cetera",
+        "t": "ktl."
+    },
+    "Lat": {
+        "o": "Lat",
+        "d": "Latin",
+        "g": "lang"
+    },
+    "lit": {
+        "o": ["lit.", "LIT."],
+        "d": "literal, literally",
+        "t": "lit."
+    },
+    "m": {
+        "o": "m.",
+        "d": "masculine noun",
+        "d_eg": "masculine consonant stems, or unassimilated loan-words"
+    },
+    "MDu": {
+        "o": "MDu.",
+        "d": "Middle Dutch",
+        "g": "lang"
+    },
+    "MHG": {
+        "o": "MHG",
+        "d": "Middle High German",
+        "g": "lang"
+    },
+    "MnE": {
+        "o": "MnE",
+        "d": "Modern English",
+        "g": "lang"
+    },
+    "n": {
+        "o": "n.",
+        "d": "neuter noun",
+        "src": "ge"
+    },
+    "neut": {
+        "o": ["neut.", "neut"],
+        "d": "neuter noun",
+        "t": "n"
+    },
+    "noun": {
+        "o": ["n.", "NOUN."],
+        "d": "noun",
+        "src": "eg",
+        "g": "pos"
+    },
+    "NHG": {
+        "o": "NHG",
+        "d": "Modern High German",
+        "g": "lang"
+    },
+    "Nor": {
+        "o": "Nor",
+        "d": "Norwegian",
+        "g": "lang"
+    },
+    "OCS": {
+        "o": "OCS",
+        "d": "Old Church Slavonic",
+        "g": "lang"
+    },
+    "OE": {
+        "o": ["OE", "OEng"],
+        "d": "Old English",
+        "g": "lang"
+    },
+    "OED": {
+        "o": "OED",
+        "d": "Oxford English Dictionary"
+    },
+    "OG": {
+        "o": "OGer",
+        "d": "Old German",
+        "g": "lang"
+    },
+    "OHG": {
+        "o": ["OHG", "OHGer"],
+        "d": "Old High German",
+        "g": "lang"
+    },
+    "ON": {
+        "o": "ON",
+        "d": "Old Norse",
+        "d_eg": "Old Icelandic",
+        "g": "lang"
+    },
+    "oneself": {
+        "o": "o-self",
+        "d": "oneself",
+        "s": "i"
+    },
+    "onomatop": {
+        "o": "onomatop.",
+        "d": "onomatopoeic word"
+    },
+    "OS": {
+        "o": "OS",
+        "d": "Old Saxon",
+        "g": "lang"
+    },
+    "p": {
+        "o": "p.",
+        "d": "preterite"
+    },
+    "part": {
+        "o": ["part.", "partic."],
+        "d": "participle"
+    },
+    "past_part": {
+        "o": "past part.",
+        "d": "past participle",
+        "t": "past part"
+    },
+    "pl": {
+        "o": "pl.",
+        "d": "plural"
+    },
+    "pret": {
+        "o": "pret.",
+        "d": "preterite"
+    },
+    "PN": {
+        "o": "PN",
+        "d": "personal name"
+    },
+    "pp": {
+        "o": ["pp.", "pret.pres."],
+        "d": "preterite-present verb. These verbs have what looks like a strong past tense used with a present sense. E.g. thaurban - tharf, thaurbum, thaurfta; \"to need\" - \"I need\", \"we need\", \"I needed\"."
+    },
+    "prep": {
+        "o": ["prep.", "PREP.", "PREP"],
+        "d": "preposition",
+        "g": "pos"
+    },
+    "pres": {
+        "o": "pres.",
+        "d": "present"
+    },
+    "pres_subj": {
+        "o": "pres. subjunctive",
+        "d": "present subjunctive",
+        "t": "pres subj"
+    },
+    "qv": {
+        "o": "q.v.",
+        "d": "quod vide, look up the mentioned here",
+        "t": "q.v."
+    },
+    "Rus": {
+        "o": "Rus",
+        "d": "Russian",
+        "g": "lang"
+    },
+    "sg": {
+        "o": "sg.",
+        "d": "singular"
+    },
+    "sf": {
+        "o": "sf.",
+        "d": "strong feminine: o-stem, jo-stem, i-stem, or u-stem"
+    },
+    "Slav": {
+        "o": "Sla",
+        "d": "Slavic",
+        "g": "lang"
+    },
+    "someone": {
+        "o": ["s-one", "S-ONE"],
+        "d": "someone",
+        "s": "i"
+    },
+    "sm": {
+        "o": "sm.",
+        "d": "strong masculine: a-stem, ja-stem, wa-stem, or u-stem, unless specifically marked as i-stem"
+    },
+    "smth": {
+        "o": "s-thing",
+        "d": "something"
+    },
+    "sn": {
+        "o": ["sn.", "sn"],
+        "d": "strong neuter: a-stem, ja-stem, wa-stem, or u-stem"
+    },
+    "subj": {
+        "o": ["subj.", "subjunctive"],
+        "d": "subjunctive"
+    },
+    "sv": {
+        "o": ["sv.", "SV."],
+        "d": "strong verb"
+    },
+    "sv1": {
+        "o": ["sv. I.", "SV. I."],
+        "d": "strong verb",
+        "t": "sv I"
+    },
+    "sv2": {
+        "o": ["sv. II.", "SV. II."],
+        "d": "strong verb, second class",
+        "t": "sv II"
+    },
+    "sv3": {
+        "o": ["sv. III.", "SV. III."],
+        "d": "strong verb",
+        "t": "sv III"
+    },
+    "sv4": {
+        "o": ["sv. IV.", "SV. IV."],
+        "d": "strong verb",
+        "t": "sv IV"
+    },
+    "sv5": {
+        "o": ["sv. V.", "SV. V"],
+        "d": "strong verb",
+        "t": "sv V"
+    },
+    "sv6": {
+        "o": ["sv. VI.", "SV. VI."],
+        "d": "strong verb",
+        "t": "sv VI"
+    },
+    "sv7": {
+        "o": ["sv. VII.", "SV. VII."],
+        "d": "strong verb",
+        "t": "sv VII"
+    },
+    "Swe": {
+        "o": "Swe",
+        "d": "Swedish",
+        "g": "lang"
+    },
+    "v": {
+        "o": ["v.", "V.", "VERB"],
+        "d": "verb",
+        "g": "pos"
+    },
+    "vi": {
+        "o": ["v. INTR.", "INTR.", "intr.", "INTRANS"],
+        "d": "intransitive verb",
+        "g": "pos"
+    },
+    "vt": {
+        "o": ["v. TRANS.", "TRANS.", "trans.", "TRANS"],
+        "d": "transitive verb",
+        "g": "pos"
+    },
+    "VC": {
+        "o": "(VC)",
+        "d": "Vienna Codex"
+    },
+    "VLat": {
+        "o": ["VLat", "Vulgar Lat."],
+        "d": "Vulgar Latin",
+        "g": "lang"
+    },
+    "wadj": {
+        "o": ["w. adj.", "w.adj."],
+        "d": "weak adjective",
+        "g": "pos"
+    },
+    "wf": {
+        "o": "wf.",
+        "d": "weak feminine",
+        "d_eg": "weak feminine: n-stem"
+    },
+    "wm": {
+        "o": ["wm.", "w. m."],
+        "d": "weak masculine",
+        "d_eg": "weak masculine: n-stem"
+    },
+    "wn": {
+        "o": "wn.",
+        "d": "weak neuter",
+        "d_eg": "weak neuter: n-stem"
+    },
+    "wv": {
+        "o": "wv.",
+        "d": "weak verb"
+    },
+    "wv1": {
+        "o": "wv. 1.",
+        "d": "weak verb",
+        "t": "wv I"
+    },
+    "wv2": {
+        "o": "wv. 2.",
+        "d": "weak verb, second class",
+        "t": "wv II"
+    },
+    "wv3": {
+        "o": "wv. 3.",
+        "d": "weak verb",
+        "t": "wv III"
+    },
+    "wv4": {
+        "o": "wv. 4.",
+        "d": "weak verb",
+        "t": "wv IV"
+    },
+    "wv5": {
+        "o": "wv. 5.",
+        "d": "weak verb",
+        "t": "wv V"
+    },
+    "wv6": {
+        "o": "wv. 6.",
+        "d": "weak verb",
+        "t": "wv VI"
+    },
+    "wv7": {
+        "o": "wv. 7.",
+        "d": "weak verb",
+        "t": "wv VII"
+    }
+}
