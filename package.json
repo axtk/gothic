@@ -1,0 +1,13 @@
+{
+  "name": "gothic",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Gothic language dictionary",
+  "scripts": {
+    "build": "npx esbuild index.ts --bundle --outdir=assets/dist --format=esm --minify",
+    "preversion": "npx npm-run-all shape build",
+    "shape": "npx codeshape check",
+    "start": "npx auxsrv -b index.ts assets/dist --minify"
+  },
+  "author": "axtk"
+}
