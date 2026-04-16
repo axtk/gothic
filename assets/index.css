@@ -6,7 +6,7 @@
   --link-color: var(--highlight);
   --mark-background: color(from var(--highlight) srgb r g b / 0.15);
 
-  --content-width: 42rem;
+  --content-width: 45rem;
   --form-width: 24rem;
 }
 @media (prefers-color-scheme: dark) {
@@ -30,15 +30,13 @@ html {
   }
 }
 body {
-  padding: 0 1em;
-  margin: 0;
-}
-html.cover body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 1em;
+  margin: 0;
 }
 p,
 ul {
@@ -197,15 +195,16 @@ dl {
 }
 dt {
   display: inline;
+  font-size: 1.2em;
   font-weight: bold;
-  border-bottom: 1px solid;
   padding: 0;
-  margin: 0 0.65em 0 0;
+  margin: 0 0.5em 0 0;
 }
 dt:not(:first-child)::before {
   content: "";
   display: block;
-  margin-top: 2em;
+  border-top: 0.05em solid color(from var(--color) srgb r g b / 0.25);
+  margin: 0.75em 0;
 }
 dd {
   display: inline;
