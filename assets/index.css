@@ -167,6 +167,12 @@ form.input .controls input:checked + span::before {
   background: var(--output-background);
   padding: 2.75em 3em;
 }
+.output[data-status="loading"] {
+  font-style: italic;
+  text-align: center;
+  background: transparent;
+  padding: 6.1em 3em;
+}
 @media (max-width: 500px) {
   .output {
     padding: 0.5em 1em;
@@ -176,10 +182,9 @@ form.input .controls input:checked + span::before {
   .output[data-status="warning"] {
     padding: 1.5em 1em;
   }
-}
-.output[data-status="loading"] {
-  text-align: center;
-  background: transparent;
+  .output[data-status="loading"] {
+    padding: 5.85em 1em;
+  }
 }
 
 dl {
