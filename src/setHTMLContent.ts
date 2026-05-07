@@ -1,8 +1,8 @@
-import { escapeRegExp } from "./utils/escapeRegExp.ts";
 import type { Context } from "./Context.ts";
 import { getAbbrHTML } from "./getAbbrHTML.ts";
 import type { MatchedItem } from "./MatchedItem.ts";
 import type { SearchResult } from "./SearchResult.ts";
+import { escapeRegExp } from "./utils/escapeRegExp.ts";
 
 export function setHTMLContent(
   item: MatchedItem,

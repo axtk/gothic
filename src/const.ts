@@ -1,4 +1,5 @@
-const urlRoot = "https://raw.githubusercontent.com/axtk/gothic/refs/heads/main/assets/data/";
+const urlRoot =
+  "https://raw.githubusercontent.com/axtk/gothic/refs/heads/main/assets/data/";
 
 export const urlMap: Record<string, string> = {
   abbrs: `${urlRoot}abbreviations.processed.json`,

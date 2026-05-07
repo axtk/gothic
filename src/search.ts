@@ -1,4 +1,3 @@
-import { escapeRegExp } from "./utils/escapeRegExp.ts";
 import type { Context } from "./Context.ts";
 import type { Dictionary } from "./Dictionary.ts";
 import type { DictionaryKey } from "./DictionaryKey.ts";
@@ -7,6 +6,7 @@ import type { MatchedItem } from "./MatchedItem.ts";
 import type { SearchResult } from "./SearchResult.ts";
 import { setHTMLContent } from "./setHTMLContent.ts";
 import { translit } from "./translit.ts";
+import { escapeRegExp } from "./utils/escapeRegExp.ts";
 
 // @date 2020-04-17
 function normalize(s: string | null | undefined) {

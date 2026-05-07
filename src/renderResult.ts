@@ -1,6 +1,6 @@
-import { escapeHTML } from "./utils/escapeHTML.ts";
 import type { Context } from "./Context.ts";
 import { search } from "./search.ts";
+import { escapeHTML } from "./utils/escapeHTML.ts";
 
 export async function renderResult(ctx: Context) {
   let { q } = ctx;
